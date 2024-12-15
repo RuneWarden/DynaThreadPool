@@ -1,0 +1,138 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0/include",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/x86_64-w64-mingw32/lib",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"iconv",
+						"mingw32",
+						"gcc",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Users/RuneWarden/scoop/apps/mingw/current/bin/gcc.exe",
+				"version" : "14.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0/include",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc/x86_64-w64-mingw32/14.2.0",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib/gcc",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/x86_64-w64-mingw32/lib",
+						"C:/Users/RuneWarden/scoop/apps/mingw/14.2.0-rt_v12-rev0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"iconv",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Users/RuneWarden/scoop/apps/mingw/current/bin/c++.exe",
+				"version" : "14.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/RuneWarden/scoop/apps/mingw/current/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
